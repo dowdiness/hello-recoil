@@ -18,11 +18,11 @@ function TextInput() {
   };
 
   return (
-    <div>
+    <p>
       <input type="text" value={text} onChange={onChange} />
       <br />
       Echo: {text}
-    </div>
+    </p>
   );
 };
 
@@ -38,15 +38,15 @@ const charCountState = selector({
 function CharacterCount() {
   const count = useRecoilValue(charCountState);
 
-  return <>Character Count: {count}</>;
+  return <h4>Character Count: {count}</h4>;
 };
 
 function CharacterCounter() {
   return (
-    <p>
+    <>
       <TextInput />
       <CharacterCount />
-    </p>
+    </>
   );
 }
 
