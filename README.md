@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Recoil Basic Tutorial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What's this?
+
+This project is Recoil documentaion's [Basic Tutorial](https://recoiljs.org/docs/basic-tutorial/intro/) implementation styled by [new.css](https://newcss.net/), bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
